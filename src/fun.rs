@@ -9,6 +9,5 @@ pub fn md5<S: Into<String>>(input: S) -> String {
 }
 
 pub fn get_guid() -> String {
-    let guid = Uuid::new_v4();
-    guid.to_string()
+    Uuid::new_v4().to_string()
 }

@@ -1,7 +1,9 @@
 # xtoolbox info
 
 ```text
-This is a constantly changing toolbox, and there are often function names like php,python,golang,js,dart because I'm used to using these names, so that's it
+This is a constantly changing toolbox, 
+and there are often function names like php,python,golang,js,dart etc. 
+because I'm used to using these names, so that's it
 ```
 
 
