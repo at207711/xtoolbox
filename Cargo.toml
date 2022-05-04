@@ -3,10 +3,15 @@ name = "xtoolbox"
 version = "0.1.0"
 authors = ["andy <x7c7v7i87@gmail.com>"]
 edition = "2021"
+description = "This is a constantly changing toolbox, and there are often function names like php,python,golang,js,dart because I'm used to using these names, so that's it"
+keywords = ["xtoolbox", "rust"]
+categories = ["parsing"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/x7c7v7i87/xtoolbox.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 uuid =  { version = "1.0.0", features = ["v4"] }
-rand = "0.8.5"
 rust-crypto = "0.2.36"
