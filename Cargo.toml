@@ -12,6 +12,12 @@ repository = "https://github.com/x7c7v7i87/xtoolbox.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+
+
 [dependencies]
 uuid =  { version = "1.0.0", features = ["v4"] }
 rust-crypto = "0.2.36"
+
+[lib]
+name = "xtoolbox"
+path = "src/lib.rs"
