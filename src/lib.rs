@@ -1,12 +1,12 @@
-mod fun;
+pub mod fun;
+pub use fun::get_guid;
+pub use fun::md5;
 
 
 #[cfg(test)]
 mod tests {
     use fun::get_guid;
     use fun::md5;
-
-    // 注意这个惯用法：在 tests 模块中，从外部作用域导入所有名字。
     use crate::fun;
 
     #[test]
@@ -16,7 +16,6 @@ mod tests {
 
     #[test]
     fn test_guid() {
-        // 这个断言会导致测试失败。注意私有的函数也可以被测试！
         println!("{}", get_guid());
     }
 }
