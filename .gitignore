@@ -12,3 +12,11 @@ Cargo.lock
 **/.DS_Store
 **.DS_Store
 .DS_Store
+*.exe
+*.log
+*.toml
+.idea/*
+.idea
+.vscode/*
+.vscode
+*.pid
