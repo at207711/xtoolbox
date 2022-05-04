@@ -1,6 +1,6 @@
 [package]
 name = "xtoolbox"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["andy <x7c7v7i87@gmail.com>"]
 edition = "2021"
 description = "This is a constantly changing toolbox, and there are often function names like php,python,golang,js,dart because I'm used to using these names, so that's it"
